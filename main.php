@@ -3,9 +3,9 @@
 
 use function PHPSTORM_META\type;
 
-    include 'farm.php';
-    include 'tree.php';
-    include 'tree_type.php';
+    include 'Farm.php';
+    include 'Tree.php';
+    include 'Tree_type.php';
     // create new farm
     $farm = new Farm(1,"first");
     // create new type apple
