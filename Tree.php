@@ -10,7 +10,8 @@ class Tree {
   private $amount;
   private $min;
   private $max;
-
+  
+  // This constructor function
   function __construct($id, $name, $type, $amount, $min, $max) {
     $this->name = $name;
     $this->id = $id;
